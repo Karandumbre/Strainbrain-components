@@ -54,3 +54,10 @@ input,
 a {
   color: #388ad3;
 }
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+  outline: none;
+}
